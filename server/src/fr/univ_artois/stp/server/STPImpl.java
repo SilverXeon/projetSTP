@@ -110,7 +110,7 @@ public class STPImpl implements STPInter{
         for(int i = 0;i<graph.getListeNoeud().size();i++){
             s+="\n"+graph.getListeNoeud().get(i).getDescription()+"\t";
             for(int j = 0;j<tab[i].length;j++){
-                s+=Math.abs(tab[i][j])+"\t\t";
+                s+=tab[i][j]+"\t\t";
             }
         }
         return s;
